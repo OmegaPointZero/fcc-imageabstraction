@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>FreeCodeCamp Image Abstraction Layer API Project</title>
+    <link id="favicon" rel="icon" href="https://glitch.com/edit/favicon-app.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <div class="container" id="main">
+      <h1>
+        Image Abstraction Layer API
+      </h1>
+      <p>
+      You can input a search string here to get back JSON data about related images, as returned by Google. 
+      </p>
+      <form method="post" enctype="text/plain">
+        <input type="text" name="text" maxlength="55" placeholder="&nbsp;Search">
+        <input type="submit" value="Search">
+      </form>
+      <p>
+        Alternatively, you can click the "View History" button to be given a list of the most recent searches.
+      </p>
+      <a href="https://fcc-image-abstraction.glitch.me/api/history">
+        <button>
+          View History
+        </button>
+      </a>
+    </div>
+    
+    
+    
+    <script src="https://code.jquery.com/jquery-2.2.1.min.js"
+            integrity="sha256-gvQgAFzTH6trSrAWoH1iPo9Xc96QxSZ3feW6kem+O00="
+            crossorigin="anonymous"></script>
+    <script src="/client.js"></script>
+
+  </body>
+</html>

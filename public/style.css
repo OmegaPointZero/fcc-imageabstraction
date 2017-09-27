@@ -1,0 +1,37 @@
+html {
+  background: url('https://cdn.glitch.com/15ff2819-ccb3-4f36-bbfe-fed10e145a30%2F1453096324424.jpg?1506469948287') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#main {
+  background-color: #111111;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px;
+  border-radius:15px;
+  color: #00DD00;
+  width: 485px;
+  height: 240px;
+  text-align: center;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  margin-top: 10%;
+  box-shadow: 3px 3px 1px #050505;
+}
+
+input {
+  background-color: #222233;
+  border-color: #111111;
+  color: #00AA00;
+}
+
+button{
+  background-color: #222233;
+  border-color: #111111;
+  color: #00AA00;
+}
