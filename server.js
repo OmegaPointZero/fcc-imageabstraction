@@ -42,13 +42,14 @@ app.get('/api/search/:query', function(req,res){
       db.close();
     });
   });
+  
   //Query the Google Images API
   var apiKey = 'AIzaSyBekVEsCm3o73VRtxdWeUIh3hoiur0MOiE';
-  var url = 'https://www.googleapis.com/customsearch/v1?key=' + apiKey + '&cx=001441806295693258836:zo_sci2c42w&searchType=image&q=' + qStr;
+  var cx = '001441806295693258836:zo_sci2c42w';
+  var url = 'https://www.googleapis.com/customsearch/v1?key=' + apiKey + '&cx=' + cx + '&searchType=image&q=' + qStr;
 if(offset != undefined){
   url += '&start=' + offset;
 }
-  
   
   var options = {
     uri: url,
